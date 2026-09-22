@@ -1,0 +1,11 @@
+useState – used to manage state in React.
+
+useEffect – side effects hook. It helps to perform side effects, DOM manipulation, event listeners.
+
+useContext – global state/context to access data from the context provider.
+
+useReducer – complex state management to handle (more) state changes.
+
+useRef – variable which holds a reference to the current object. It does not cause re-render when its value changes.
+
+useMemo & useCallback – optimization hooks, unnecessary re-renders should be avoided by using these.
