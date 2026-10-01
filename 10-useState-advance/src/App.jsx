@@ -9,10 +9,11 @@ const App = () => {
     setfirst(newNum);
     console.log(newNum);
 
-    const newArr = [...num];
-    newArr.pop();
-    setnum(newArr);
-    console.log(newArr);
+    // const newArr = [...num];
+    // newArr.pop();
+    // setnum(newArr);
+    // console.log(newArr);
+    setnum(prev => [40,50,60]);
   }
   return (
     <div className='text-2xl m-10'>
